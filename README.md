@@ -10,8 +10,8 @@
 
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/AldoJesusMartinezLarios/docker-csv-chat.git
+cd docker-csv-chat
 ```
 
 2. **Configurar variables de entorno**
@@ -43,7 +43,7 @@ docker-compose logs -f app
 
 ```env
 GROQ_API_KEY=gsk_tu_api_key_real_aqui
-API_KEYS=tu_clave_personalizada
+API_KEYS=NO_MODIFICAR ESTE APARTADO
 ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
 DEBUG=true
 ```
